@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: outfit;
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.modo-dark {
+    background-color: black;
+
+    .contenedor-caja{
+        border-color: white;
+    }
+
+    input {
+        border-color: white;
+        color: white;
+    }
+    h1 {
+        color: white
+        ;
+    }
+    .inputColor {
+        background-color: transparent;
+        
+    }
+    h2 {
+        color: white;
+    }
+    
+    button {
+        background-color: transparent;
+        color: white;
+        border-color: white;
+    }
+    button:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.contenedor-subtitulo {
+display: flex;
+}
+h2 {
+    text-align: center;
+    padding: 30px 45px 0 30px;
+}
+
+.contenedor-caja {
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    transition: all 0.4s ease;
+}
+.inputBorder {
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    border-style: none;
+    border: 3px solid black;
+    background-color: transparent;
+}
+.inputColor {
+    width: 200px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-style: none;
+    border: 3px solid black;
+    background-color: black;
+}
+
+button {
+    background-color: white;
+    border-style: none;
+    border: 3px solid black;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+
